@@ -25,7 +25,7 @@
 ```
 ## 0. clone project POA
 ```
-# git clone https://github.com/thanachaiTP/workshop-poa.git -b validator validator
+# git clone https://github.com/DGSInfra/workshop-poa.git -b validator validator
 # cd validator
 ```
 
