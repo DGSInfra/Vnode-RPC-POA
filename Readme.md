@@ -25,7 +25,7 @@
 ```
 ## 1. clone project POA
 ```
-# git clone https://github.com/thanachaiTP/workshop-poa.git -b rpc rpc
+# git clone https://github.com/DGSInfra/workshop-poa.git -b rpc rpc
 # cd rpc
 ```
 
