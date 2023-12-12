@@ -11,13 +11,13 @@ services:
     ports:
       - 30333:30333
     command: |
-      --networkid 39
+      --networkid 6363
       --syncmode "full"
       --mine
       --miner.gasprice 10000000000
       --miner.gastarget 20000000
       --miner.gaslimit 20000000
-      --nat extip:128.199.102.108
+      --nat extip:172.17.254.31
       --datadir "node"
       --nousb
       --password password.txt
