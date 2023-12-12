@@ -1,13 +1,13 @@
 # Deploy Blockchain POA (Validator)
-> networkid 39
+> networkid 6363
 
 # รายละเอียด System Requirements
 |VM Spec  | Descriptions     |
 |---------|------------------|
 |OS       | Ubuntu 20.04 LTS |
-|CPU      |vCPU 8 Cores      |
-|RAM      |16 GB             |
-|DISK SSD | 200 GB           |
+|CPU      | vCPU 4 Cores     |
+|RAM      | 16 GB            |
+|DISK SSD | 1 TB             |
 
 # รายละเอียด Software Requirements
 | Software      | Version           |
@@ -20,12 +20,12 @@
 ```
 # curl https://get.docker.com | sh
 
-# curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+# curl -L "https://github.com/docker/compose/releases/download/latest/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 # chmod +x /usr/local/bin/docker-compose
 ```
 ## 0. clone project POA
 ```
-# git clone https://github.com/DGSInfra/workshop-poa.git -b validator validator
+# git clone https://github.com/DGSInfra/Vnode-RPC-POA.git -b validator validator
 # cd validator
 ```
 
