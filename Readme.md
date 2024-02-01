@@ -1,5 +1,5 @@
 # Deploy Blockchain POA (Validator)
-> networkid 6363
+> networkid 555
 
 # รายละเอียด System Requirements
 |VM Spec  | Descriptions     |
